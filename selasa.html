@@ -1,10 +1,9 @@
-
 <!DOCTYPE html>
 <html lang="id">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CBT PAS - Hari Senin</title>
+  <title>CBT PAS - Hari Selasa (Paket A)</title>
   <style>
     body { font-family:'Segoe UI',sans-serif; background:#f4f7fc; margin:0; position:relative; min-height:100vh; overflow-x:hidden; }
     header { background:#005baa; color:white; padding:20px; text-align:center; border-bottom:4px solid #ffc107; position:relative; z-index:1; }
@@ -20,8 +19,8 @@
     .btn.locked { background:#aaa; color:#eee; cursor:not-allowed; pointer-events:none; }
     .pengawas { font-size:0.85em; margin-top:8px; font-style:italic; color:rgba(255,255,255,0.9); }
     .agama-buttons { display:flex; flex-direction:column; gap:6px; margin-top:10px; }
-    .agama-buttons button { background:#005baa; color:white; border:none; padding:8px 12px; border-radius:6px; cursor:pointer; font-weight:bold; }
-    .agama-buttons button.locked { background:#aaa; color:#eee; cursor:not-allowed; pointer-events:none; }
+    .agama-buttons a { background:#005baa; color:white; padding:8px 12px; border-radius:6px; cursor:pointer; font-weight:bold; text-decoration:none; text-align:center; }
+    .agama-buttons a.locked { background:#aaa; color:#eee; cursor:not-allowed; pointer-events:none; }
     .card.indonesia { background:linear-gradient(135deg,#ff512f,#f09819); }
     .card.kimia     { background:linear-gradient(135deg,#43cea2,#185a9d); }
     .card.fisika    { background:linear-gradient(135deg,#1E90FF,#00BFFF); }
@@ -41,107 +40,124 @@
 <div class="aurora"></div><div class="aurora2"></div><div class="aurora3"></div>
 
 <header>
-  <h1>CBT PAS - Hari Selasa</h1>
+  <h1>CBT PAS - Hari Selasa (Paket A)</h1>
   <p>PKBM Ristek Nusantara Jaya</p>
   <p>Tahun Pelajaran 2025/2026</p>
 </header>
 
+<!-- Kelas I -->
 <section>
   <h2>🧑‍🎓 Kelas I</h2>
   <div class="card-group">
-    <div class="card indonesia"><h3>09:00 - 10:00</h3><a id="btn-xipa-indonesia" href="#" class="btn">Matematika</a><p class="pengawas">Pengawas: Camera Aplication CBT</p></div>
-    <div class="card kimia"><h3>10:00 - 11:00</h3><a id="btn-xipa-kimia" href="#" class="btn">IPS</a><p class="pengawas">Pengawas: Camera Aplication CBT</p></div>
-    <div class="card fisika"><h3>11:00 - 12:00</h3><p>Pendidikan Agama:</p><p class="pengawas">Pengawas: Camera Aplication CBT</p>
+    <div class="card indonesia"><h3>09:00 - 10:00</h3><a id="btn-i-matematika" href="#" class="btn">Matematika</a><p class="pengawas">Pengawas: Camera Application CBT</p></div>
+    <div class="card kimia"><h3>10:00 - 11:00</h3><a id="btn-i-ips" href="#" class="btn">IPS</a><p class="pengawas">Pengawas: Camera Application CBT</p></div>
+    <div class="card fisika"><h3>11:00 - 12:00</h3><p>Pendidikan Agama:</p><p class="pengawas">Pengawas: Camera Application CBT</p>
       <div class="agama-buttons">
-        <button id="placeholdersoal.html">Islam</button>
-        <button id="placeholdersoal.html">Kristen</button>
-        <button id="placeholdersoal.html">Katolik</button>
-        <button id="placeholdersoal.html">Hindu</button>
-        <button id="placeholdersoal.html">Budha</button>
+        <a id="btn-i-agama-islam" href="placeholdersoal.html">Islam</a>
+        <a id="btn-i-agama-kristen" href="placeholdersoal.html">Kristen</a>
+        <a id="btn-i-agama-katolik" href="placeholdersoal.html">Katolik</a>
+        <a id="btn-i-agama-hindu" href="placeholdersoal.html">Hindu</a>
+        <a id="btn-i-agama-budha" href="placeholdersoal.html">Budha</a>
       </div>
+    </div>
+    <div class="card seni"><h3>12:00 - 13:00</h3><a id="btn-i-seni" href="#" class="btn">Seni Budaya</a><p class="pengawas">Pengawas: Camera Application CBT</p></div>
   </div>
 </section>
 
+<!-- Kelas II -->
 <section>
   <h2>🧑‍🎓 Kelas II</h2>
   <div class="card-group">
-    <div class="card indonesia"><h3>09:00 - 10:00</h3><a id="btn-xipa-indonesia" href="#" class="btn">Matematika</a><p class="pengawas">Pengawas: Camera Aplication CBT</p></div>
-    <div class="card kimia"><h3>10:00 - 11:00</h3><a id="btn-xipa-kimia" href="#" class="btn">IPS</a><p class="pengawas">Pengawas: Camera Aplication CBT</p></div>
-    <div class="card fisika"><h3>11:00 - 12:00</h3><p>Pendidikan Agama:</p><p class="pengawas">Pengawas: Camera Aplication CBT</p>
+    <div class="card indonesia"><h3>09:00 - 10:00</h3><a id="btn-ii-matematika" href="#" class="btn">Matematika</a><p class="pengawas">Pengawas: Camera Application CBT</p></div>
+    <div class="card kimia"><h3>10:00 - 11:00</h3><a id="btn-ii-ips" href="#" class="btn">IPS</a><p class="pengawas">Pengawas: Camera Application CBT</p></div>
+    <div class="card fisika"><h3>11:00 - 12:00</h3><p>Pendidikan Agama:</p><p class="pengawas">Pengawas: Camera Application CBT</p>
       <div class="agama-buttons">
-        <button id="placeholdersoal.html">Islam</button>
-        <button id="placeholdersoal.html">Kristen</button>
-        <button id="placeholdersoal.html">Katolik</button>
-        <button id="placeholdersoal.html">Hindu</button>
-        <button id="placeholdersoal.html">Budha</button>
+        <a id="btn-ii-agama-islam" href="placeholdersoal.html">Islam</a>
+        <a id="btn-ii-agama-kristen" href="placeholdersoal.html">Kristen</a>
+        <a id="btn-ii-agama-katolik" href="placeholdersoal.html">Katolik</a>
+                <a id="btn-ii-agama-hindu" href="placeholdersoal.html">Hindu</a>
+        <a id="btn-ii-agama-budha" href="placeholdersoal.html">Budha</a>
       </div>
+    </div>
+    <div class="card seni"><h3>12:00 - 13:00</h3><a id="btn-ii-seni" href="#" class="btn">Seni Budaya</a><p class="pengawas">Pengawas: Camera Application CBT</p></div>
   </div>
 </section>
 
+<!-- Kelas III -->
 <section>
   <h2>🧑‍🎓 Kelas III</h2>
   <div class="card-group">
-    <div class="card indonesia"><h3>09:00 - 10:00</h3><a id="btn-xipa-indonesia" href="#" class="btn">Matematika</a><p class="pengawas">Pengawas: Camera Aplication CBT</p></div>
-    <div class="card kimia"><h3>10:00 - 11:00</h3><a id="btn-xipa-kimia" href="#" class="btn">IPS</a><p class="pengawas">Pengawas: Camera Aplication CBT</p></div>
-    <div class="card fisika"><h3>11:00 - 12:00</h3><p>Pendidikan Agama:</p><p class="pengawas">Pengawas: Camera Aplication CBT</p>
+    <div class="card indonesia"><h3>09:00 - 10:00</h3><a id="btn-iii-matematika" href="#" class="btn">Matematika</a><p class="pengawas">Pengawas: Camera Application CBT</p></div>
+    <div class="card kimia"><h3>10:00 - 11:00</h3><a id="btn-iii-ips" href="#" class="btn">IPS</a><p class="pengawas">Pengawas: Camera Application CBT</p></div>
+    <div class="card fisika"><h3>11:00 - 12:00</h3><p>Pendidikan Agama:</p><p class="pengawas">Pengawas: Camera Application CBT</p>
       <div class="agama-buttons">
-        <button id="placeholdersoal.html">Islam</button>
-        <button id="placeholdersoal.html">Kristen</button>
-        <button id="placeholdersoal.html">Katolik</button>
-        <button id="placeholdersoal.html">Hindu</button>
-        <button id="placeholdersoal.html">Budha</button>
+        <a id="btn-iii-agama-islam" href="placeholdersoal.html">Islam</a>
+        <a id="btn-iii-agama-kristen" href="placeholdersoal.html">Kristen</a>
+        <a id="btn-iii-agama-katolik" href="placeholdersoal.html">Katolik</a>
+        <a id="btn-iii-agama-hindu" href="placeholdersoal.html">Hindu</a>
+        <a id="btn-iii-agama-budha" href="placeholdersoal.html">Budha</a>
       </div>
+    </div>
+    <div class="card seni"><h3>12:00 - 13:00</h3><a id="btn-iii-seni" href="#" class="btn">Seni Budaya</a><p class="pengawas">Pengawas: Camera Application CBT</p></div>
   </div>
 </section>
 
+<!-- Kelas IV -->
 <section>
   <h2>🧑‍🎓 Kelas IV</h2>
   <div class="card-group">
-    <div class="card indonesia"><h3>09:00 - 10:00</h3><a id="btn-xipa-indonesia" href="#" class="btn">Matematika</a><p class="pengawas">Pengawas: Camera Aplication CBT</p></div>
-    <div class="card kimia"><h3>10:00 - 11:00</h3><a id="btn-xipa-kimia" href="#" class="btn">IPS</a><p class="pengawas">Pengawas: Camera Aplication CBT</p></div>
-    <div class="card fisika"><h3>11:00 - 12:00</h3><p>Pendidikan Agama:</p><p class="pengawas">Pengawas: Camera Aplication CBT</p>
+    <div class="card indonesia"><h3>09:00 - 10:00</h3><a id="btn-iv-matematika" href="#" class="btn">Matematika</a><p class="pengawas">Pengawas: Camera Application CBT</p></div>
+    <div class="card kimia"><h3>10:00 - 11:00</h3><a id="btn-iv-ips" href="#" class="btn">IPS</a><p class="pengawas">Pengawas: Camera Application CBT</p></div>
+    <div class="card fisika"><h3>11:00 - 12:00</h3><p>Pendidikan Agama:</p><p class="pengawas">Pengawas: Camera Application CBT</p>
       <div class="agama-buttons">
-        <button id="placeholdersoal.html">Islam</button>
-        <button id="placeholdersoal.html">Kristen</button>
-        <button id="placeholdersoal.html">Katolik</button>
-        <button id="placeholdersoal.html">Hindu</button>
-        <button id="placeholdersoal.html">Budha</button>
+        <a id="btn-iv-agama-islam" href="placeholdersoal.html">Islam</a>
+        <a id="btn-iv-agama-kristen" href="placeholdersoal.html">Kristen</a>
+        <a id="btn-iv-agama-katolik" href="placeholdersoal.html">Katolik</a>
+        <a id="btn-iv-agama-hindu" href="placeholdersoal.html">Hindu</a>
+        <a id="btn-iv-agama-budha" href="placeholdersoal.html">Budha</a>
       </div>
+    </div>
+    <div class="card seni"><h3>12:00 - 13:00</h3><a id="btn-iv-seni" href="#" class="btn">Seni Budaya</a><p class="pengawas">Pengawas: Camera Application CBT</p></div>
   </div>
 </section>
 
+<!-- Kelas V -->
 <section>
   <h2>🧑‍🎓 Kelas V</h2>
   <div class="card-group">
-    <div class="card indonesia"><h3>09:00 - 10:00</h3><a id="btn-xipa-indonesia" href="#" class="btn">Matematika</a><p class="pengawas">Pengawas: Sri Lestiana</p></div>
-    <div class="card kimia"><h3>10:00 - 11:00</h3><a id="btn-xipa-kimia" href="#" class="btn">IPS</a><p class="pengawas">Pengawas: Vika Hidayati</p></div>
-    <div class="card fisika"><h3>11:00 - 12:00</h3><p>Pendidikan Agama:</p><p class="pengawas">Pengawas: Camera Irma Tania</p>
+    <div class="card indonesia"><h3>09:00 - 10:00</h3><a id="btn-v-matematika" href="#" class="btn">Matematika</a><p class="pengawas">Pengawas: Sri Lestiana</p></div>
+    <div class="card kimia"><h3>10:00 - 11:00</h3><a id="btn-v-ips" href="#" class="btn">IPS</a><p class="pengawas">Pengawas: Vika Hidayati</p></div>
+    <div class="card fisika"><h3>11:00 - 12:00</h3><p>Pendidikan Agama:</p><p class="pengawas">Pengawas: Irma Tania</p>
       <div class="agama-buttons">
-        <button id="placeholdersoal.html">Islam</button>
-        <button id="placeholdersoal.html">Kristen</button>
-        <button id="placeholdersoal.html">Katolik</button>
-        <button id="placeholdersoal.html">Hindu</button>
-        <button id="placeholdersoal.html">Budha</button>
+        <a id="btn-v-agama-islam" href="placeholdersoal.html">Islam</a>
+        <a id="btn-v-agama-kristen" href="placeholdersoal.html">Kristen</a>
+        <a id="btn-v-agama-katolik" href="placeholdersoal.html">Katolik</a>
+        <a id="btn-v-agama-hindu" href="placeholdersoal.html">Hindu</a>
+        <a id="btn-v-agama-budha" href="placeholdersoal.html">Budha</a>
       </div>
+    </div>
+    <div class="card seni"><h3>12:00 - 13:00</h3><a id="btn-v-seni" href="#" class="btn">Seni Budaya</a><p class="pengawas">Pengawas: Camera Application CBT</p></div>
   </div>
 </section>
 
+<!-- Kelas VI -->
 <section>
   <h2>🧑‍🎓 Kelas VI</h2>
   <div class="card-group">
-    <div class="card indonesia"><h3>09:00 - 10:00</h3><a id="btn-xipa-indonesia" href="#" class="btn">Matematika</a><p class="pengawas">Pengawas: Sri Lestiana</p></div>
-    <div class="card kimia"><h3>10:00 - 11:00</h3><a id="btn-xipa-kimia" href="#" class="btn">IPS</a><p class="pengawas">Pengawas: Vika Hidayati</p></div>
+    <div class="card indonesia"><h3>09:00 - 10:00</h3><a id="btn-vi-matematika" href="#" class="btn">Matematika</a><p class="pengawas">Pengawas: Sri Lestiana</p></div>
+    <div class="card kimia"><h3>10:00 - 11:00</h3><a id="btn-vi-ips" href="#" class="btn">IPS</a><p class="pengawas">Pengawas: Vika Hidayati</p></div>
     <div class="card fisika"><h3>11:00 - 12:00</h3><p>Pendidikan Agama:</p><p class="pengawas">Pengawas: Irma Tania</p>
       <div class="agama-buttons">
-        <button id="placeholdersoal.html">Islam</button>
-        <button id="placeholdersoal.html">Kristen</button>
-        <button id="placeholdersoal.html">Katolik</button>
-        <button id="placeholdersoal.html">Hindu</button>
-        <button id="placeholdersoal.html">Budha</button>
+        <a id="btn-vi-agama-islam" href="placeholdersoal.html">Islam</a>
+        <a id="btn-vi-agama-kristen" href="placeholdersoal.html">Kristen</a>
+        <a id="btn-vi-agama-katolik" href="placeholdersoal.html">Katolik</a>
+        <a id="btn-vi-agama-hindu" href="placeholdersoal.html">Hindu</a>
+        <a id="btn-vi-agama-budha" href="placeholdersoal.html">Budha</a>
       </div>
+    </div>
+    <div class="card seni"><h3>12:00 - 13:00</h3><a id="btn-vi-seni" href="#" class="btn">Seni Budaya</a><p class="pengawas">Pengawas: Camera Application CBT</p></div>
   </div>
 </section>
-
 
 <footer>
   © PKBM Ristek Nusantara Jaya | TP 2025–2026<br>
@@ -150,32 +166,65 @@
 
 <script>
   const soalSettings = {
-    "btn-xipa-indonesia": false,
-    "btn-xipa-kimia": false,
-    "btn-xipa-agama-islam": false,
-    "btn-xipa-agama-kristen": false,
-    "btn-xipa-agama-katolik": false,
-    "btn-xipa-agama-hindu": false,
-    "btn-xipa-agama-budha": false,
-    "btn-xipa-seni": false,
+    // Kelas I
+    "btn-i-matematika": false,
+    "btn-i-ips": false,
+    "btn-i-agama-islam": false,
+    "btn-i-agama-kristen": false,
+    "btn-i-agama-katolik": false,
+    "btn-i-agama-hindu": false,
+    "btn-i-agama-budha": false,
+    "btn-i-seni": false,
 
-    "btn-xiipa-indonesia": false,
-    "btn-xiipa-kimia": false,
-    "btn-xiipa-agama-islam": true,
-    "btn-xiipa-agama-kristen": true,
-    "btn-xiipa-agama-katolik": true,
-    "btn-xiipa-agama-hindu": true,
-    "btn-xiipa-agama-budha": true,
-    "btn-xiipa-seni": false,
+    // Kelas II
+    "btn-ii-matematika": false,
+    "btn-ii-ips": false,
+    "btn-ii-agama-islam": false,
+    "btn-ii-agama-kristen": false,
+    "btn-ii-agama-katolik": false,
+    "btn-ii-agama-hindu": false,
+    "btn-ii-agama-budha": false,
+    "btn-ii-seni": false,
 
-    "btn-xiiipa-indonesia": false,
-    "btn-xiiipa-kimia": false,
-    "btn-xiiipa-agama-islam": true,
-    "btn-xiiipa-agama-kristen": true,
-    "btn-xiiipa-agama-katolik": true,
-    "btn-xiiipa-agama-hindu": true,
-    "btn-xiiipa-agama-budha": true,
-    "btn-xiiipa-seni": false
+    // Kelas III
+    "btn-iii-matematika": false,
+    "btn-iii-ips": false,
+    "btn-iii-agama-islam": false,
+    "btn-iii-agama-kristen": false,
+    "btn-iii-agama-katolik": false,
+    "btn-iii-agama-hindu": false,
+    "btn-iii-agama-budha": false,
+    "btn-iii-seni": false,
+
+    // Kelas IV
+    "btn-iv-matematika": false,
+    "btn-iv-ips": false,
+    "btn-iv-agama-islam": false,
+    "btn-iv-agama-kristen": false,
+    "btn-iv-agama-katolik": false,
+    "btn-iv-agama-hindu": false,
+    "btn-iv-agama-budha": false,
+    "btn-iv-seni": false,
+
+    // Kelas V
+    "btn-v-matematika": false,
+    "btn-v-ips": false,
+    "btn-v-agama-islam": false,
+    "btn-v-agama-kristen": false,
+    "btn-v-agama-katolik": false,
+    "btn-v-agama-hindu": false,
+    "btn-v-agama-budha": false,
+    "btn-v-seni": false,
+
+    // Kelas VI
+    "btn-vi-matematika": false,
+    "btn-vi-ips": false,
+    "btn-vi-agama-islam": false,
+    "btn-vi-agama-kristen": false,
+    "btn-vi-agama-katolik": false,
+    "btn-vi-agama-hindu": false,
+    "btn-vi-agama-budha": false,
+    "btn-vi-seni": false
   };
 
   function applySettings(){
@@ -196,6 +245,5 @@
   }
   applySettings();
 </script>
-
 </body>
 </html>
